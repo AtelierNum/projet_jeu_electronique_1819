@@ -160,7 +160,7 @@ boolean winKameha = false; // Animation de fin de partie
 ```
 Le principe du programme est résumé dans ce diagramme :
   
-![Diagramme](\visuels/Diagramme_Kameha.jpg)  
+![Diagramme](visuels/Diagramme_Kameha.jpg)  
   
   
 
