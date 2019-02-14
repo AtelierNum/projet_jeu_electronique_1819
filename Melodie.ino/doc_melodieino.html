@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>doc_melodieino</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">MELODIE.INO</h1>
+
+<h6 id="toc_1">Petit jeu électronique basé sur Arduino, réalisé par Antoine Cesbron, Mathis Freudenberger et Victor Ducrot, étudiants en I3B.</h6>
+
+<p><img src="visuels/photo3.jpeg" alt="montage oled"></p>
+
+<hr>
+
+<p></br> </p>
+
+<h2 id="toc_2">Le principe</h2>
+
+<p></br>
+Le joueur a devant lui une boîte avec un écran, 3 boutons et une mini enceinte. À chaque tour un titre de musique apparaît sur l&#39;écran, il écoute 2 mélodies : la mélodie A et la mélodie B, puis il doit choisir laquelle correspond à la chanson affichée en appuyant sur le bouton correspondant.  </p>
+
+<p></br> <img src="visuels/melodie3.gif" alt="montage oled"> </br> </p>
+
+<p>(Voir également la vidéo (video-melodieino.mp4) fournie avec le code final dans le dossier &quot;le doc&quot; ou &quot;melodieino&quot;, démontrant le déroulement d&#39;une partie). </p>
+
+<p></br> </p>
+
+<h2 id="toc_3">Quelques codes de test</h2>
+
+<p></br></p>
+
+<h3 id="toc_4">LA BIBLIOTHÈQUE EASYBUTTON</h3>
+
+<blockquote>
+<p>Pour l’utilisation des boutons, nous avons utilisé la bibliothèque EasyButton disponible dans le gestionnaire de bibliothèques Arduino. Cette bibliothèque permet de gérer des fonctions comme onPressed qui déclenche des évènements quand on appuie une fois sur le bouton. </p>
+</blockquote>
+
+<h4 id="toc_5">1/ Le montage</h4>
+
+<p></br>
+<img src="visuels/deuxboutons_montage.png" alt="montage oled"> </p>
+
+<h4 id="toc_6">2/ Le code de deuxboutons.ino</h4>
+
+<p>Nous avons testé comment faire pour gérer 2 boutons grâce à cette bibliothèque, c’est à dire attribuer une valeur à chacun et les faire s’afficher dans le moniteur série. </p>
+
+<p>On commence par importer la bibliothèque dans le programme : </br> <code>#include &lt;EasyButton.h&gt;</code></p>
+
+<p>Ensuite on déclare les objets avec <code>EasyButton</code> en leur donnant un nom et en précisant la pin à laquelle est connectée le bouton :</br></p>
+
+<div><pre><code class="language-none">EasyButton button1(8);
+EasyButton button2(4);</code></pre></div>
+
+<p>On met en place le <strong>setup</strong> avec l&#39;initialisation des boutons <code>buttonA.begin();</code> et la fonction appelée quand ils sont pressés <code>buttonA.onPressed(onPressed_bon);</code>.</p>
+
+<p>Puis on écrit la fonction qui sera appelée une fois le bouton pressé. </p>
+
+<div><pre><code class="language-none">void onPressed1() {   // Une fois le bouton pressé un message s&#39;affiche dans le moniteur série.
+Serial.println(&quot;BOUTON 1&quot;);
+}</code></pre></div>
+
+<p>Enfin dans le <strong>loop</strong> on lit en boucle l&#39;état de notre bouton avec <code>button1.read();</code>.</p>
+
+<p></br></p>
+
+<h3 id="toc_7">LE PIEZO</h3>
+
+<blockquote>
+<p>Notre jeu étant basé sur un Blindtest, il doit donc passer de la musique, c&#39;est pourquoi nous avons décidé d&#39;utiliser le piezo, une mini enceinte qui permet à un Arduino de produire du son. Mais elle permet également de servir de micro et recevoir de l&#39;information (c&#39;est ce que nous verrons un peu plus tard dans cette documentation). </p>
+</blockquote>
+
+<h4 id="toc_8">1/ Le montage</h4>
+
+<p></br>
+<img src="visuels/piezo_montage.png" alt="montage oled"></p>
+
+<h4 id="toc_9">2/ Le code de piezo.ino</h4>
+
+<p>On compose tout d&#39;abord la mélodie en rentrant le <strong>nombre de notes</strong>, <strong>quelles notes sont jouées</strong> et <strong>leurs durées</strong>. Quand on téléverse, la mélodie se joue. </p>
+
+<p>Nombre de notes : <code>int nombre_notes_melo1vraie = 13;</code></p>
+
+<p>Définition des notes : </p>
+
+<div><pre><code class="language-none">int melodie_1vraie[] = {
+
+NOTE_MI6, NOTE_RE6, NOTE_FAD5, NOTE_SOLD5, NOTE_DOD6, NOTE_SI5, NOTE_RE5, NOTE_MI5, NOTE_SI5, NOTE_LA5, NOTE_DOD5, NOTE_MI5, NOTE_LA5, };</code></pre></div>
+
+<p>Durées des notes : </p>
+
+<div><pre><code class="language-none">int duree_note_melo1vraie[] = {
+8, 8, 4, 4, 8, 8, 4, 4, 8, 8, 4, 4, 4, };</code></pre></div>
+
+<p>Puis on écrit la fonction <code>jouerMelodie()</code> (vue en cours) qui permet de jouer cette mélodie.</p>
+
+<p>Et enfin on fait jouer la mélodie dans le <strong>loop</strong>, en appelant cette dernière fonction : </p>
+
+<div><pre><code class="language-none">void loop() {   jouerMelodie();
+}</code></pre></div>
+
+<p></br></p>
+
+<h3 id="toc_10">L&#39;ECRAN OLED + SYSTÈME EN INDEX</h3>
+
+<blockquote>
+<p>Notre jeu étant basé sur le fait de deviner la bonne mélodie parmi deux, nous voulions donc que le joueur soit informé du titre de la mélodie qu&#39;il doit deviner. Nous avons tout d&#39;abord pensé à l&#39;affiche sur une feuille, mais ce n&#39;était pas très interactif. Nous avons alors appris qu&#39;il était possible d&#39;afficher des choses sur un mini écran OLED grâce à une carte Arduino, nous avons donc choisi cette solution. </p>
+</blockquote>
+
+<h4 id="toc_11">1/ Le montage</h4>
+
+<p>Montage très simple avec 4 fils (GMD, 5V, SCL, SDA). Nous n&#39;avons pas vu cela en cours alors nous avons commencé avec la librairie Adafruit pour finalement utiliser la librairie U8G2.</p>
+
+<p><img src="visuels/oled_index_montage.png" alt="montage oled"> </br></p>
+
+<p></br></p>
+
+<h4 id="toc_12">2/ La librairie</h4>
+
+<blockquote>
+<p>Nous n&#39;avons pas vu les écrans en cours, alors nous avons commencé avec la librairie Adafruit pour finalement utiliser la librairie U8G2 qui est bien plus simple pour du texte. Au niveau des 2 polices utilisées, elles sont téléchargeables sur github <a href="https://github.com/olikraus/u8g2/wiki/fntlist8x8.">via ce lien.</a></p>
+
+<p>Pour faire défiler les textes avec un bouton, nous avons utilisé la librairie EasyButton.</p>
+</blockquote>
+
+<p>On importe donc la librairie dans le fichier avec <code>U8X8_SSD1306_128X64_NONAME_HW_I2C ecran(/* reset=*/ U8X8_PIN_NONE);</code></p>
+
+<p></br></p>
+
+<h4 id="toc_13">3/ le code de oled_changement.ino</h4>
+
+<blockquote>
+<p>Ce code est notre première expérimentation pour faire apparaître un texte après l&#39;autre lorsqu&#39;on appuie sur ce bouton. C&#39;est sur ce principe que nous avons ensuite développé notre code final avec les index qui augmentent.</p>
+</blockquote>
+
+<p>Tout d&#39;abord dans le <strong>setup</strong>, on initialise le bouton ainsi que l&#39;écran : </p>
+
+<div><pre><code class="language-none">button.begin();
+ecran.begin();</code></pre></div>
+
+<p>On instaure également la fonction appelée quand un bouton sera pressé : <code>button.onPressed(onPressed);</code>.</p>
+
+<p>Puis on écrit cette dernière fonction, on indique ce qu&#39;elle fait, en l&#39;occurrence elle augmente l&#39;index de 1 : </p>
+
+<div><pre><code class="language-none">void onPressed() {   index += 1;
+}</code></pre></div>
+
+<p>Enfin dans le <strong>loop</strong>, on lie l&#39;état du bouton avec <code>button.read();</code>, et on indique ce qui s&#39;affiche sur l&#39;écran pour chaque valeur de l&#39;index avec une boucle <code>if</code>. </p>
+
+<div><pre><code class="language-none">if (index == 0) {  // On importe la font  ecran.setFont(u8x8_font_chroma48medium8_r);
+
+// On compose le message affiché sur l&#39;écran en indiquant sa taille et ses coordonnées.
+
+ecran.drawString(0, 0, &quot;Bienvenue au blind test&quot;);
+}</code></pre></div>
+
+<p>Nous avons ainsi créé logique de jeu en étape. C&#39;est autour de ceci que nous allons développer notre projet de mini-jeu. </p>
+
+<p></br> </p>
+
+<h2 id="toc_14">melodie.ino</h2>
+
+<h3 id="toc_15">LE MATÉRIEL</h3>
+
+<ul>
+<li>1 carte Arduino</li>
+<li>1 câble USB</li>
+<li>1 Bredbord</li>
+<li>Des câbles</li>
+<li>1 piezo</li>
+<li>2 boutons poussoirs</li>
+<li>1 résistance</li>
+</ul>
+
+<h3 id="toc_16">LE MONTAGE</h3>
+
+<p></br> <img src="visuels/melodie_montage.png" alt="montage oled"> </br></p>
+
+<h3 id="toc_17">LA MAQUETTE</h3>
+
+<p></br>
+<img src="visuels/dimensions.jpeg" alt="montage oled"></p>
+
+<p></br></p>
+
+<h3 id="toc_18">LE CODE</h3>
+
+<p>Le code est découpé en 4 parties : </p>
+
+<ul>
+<li>La composition des mélodies</li>
+<li>La mise en place des interactions</li>
+<li>Le déroulement du jeu</li>
+<li>L&#39;affichage des messages de fin en fonction du score</li>
+</ul>
+
+<p>Le principe du programme est résumé dans ce diagramme :</p>
+
+<p></br> <img src="visuels/diagramme_melodieino.png" alt="montage oled"> </br></p>
+
+<p>(Excusez-nous pour la taille, vous pouvez le retrouver en grand dans le dossier &quot;melodie&quot; ou &quot;le doc/visuels&quot;, au nom de diagramme_melodieino.png)</p>
+
+<p></br> </p>
+
+<h3 id="toc_19">1/ La composition des mélodies (ligne 29)</h3>
+
+<blockquote>
+<p>Durant cette partie, on rentre le <strong>nombre de notes</strong>, <strong>quelles notes</strong> et <strong>leurs durées</strong> pour chaque chanson. 2 fois pour chaque chanson du coup, car il y a à chaque fois une vraie et une fausse. </br> &gt;Exemple avec la vraie mélodie de Nokia :</p>
+</blockquote>
+
+<p>Pour cela on reprend simplement le code présenté plus haut qui permet de composer les mélodies. Et on compose donc 10 mélodies, une vraie et une fausse pour chaque musique, ainsi que 2 sons pour les bonnes et mauvaises réponses. </p>
+
+<p></br> </p>
+
+<h3 id="toc_20">2/ Mise en place des interactions (ligne 236)</h3>
+
+<blockquote>
+<p>On met en place le setup avec l&#39;initialisation des boutons,les fonctions appelées quand ils sont pressés et l&#39;initialisation de l&#39;écran. </p>
+</blockquote>
+
+<p><strong>À la ligne 243</strong>, on initialise donc tout d&#39;abord les boutons ainsi que l&#39;écran : </p>
+
+<div><pre><code class="language-none">buttonA.begin();
+buttonB.begin();
+button3.begin();
+ecran.begin();</code></pre></div>
+
+<p>Puis <strong>à la ligne 261</strong>, on définit les fonctions de bonnes et mauvaises réponses, exemple avec la fonction de bonne réponse <code>void onPressed_bon() { ... }</code>: </p>
+
+<p>On augmente le score dès que le bouton est pressé : </p>
+
+<div><pre><code class="language-none">score = score + 5;</code></pre></div>
+
+<p>On compose le message affiché pour indiquer la bonne réponse, avec les coordonnées et la taille : </p>
+
+<div><pre><code class="language-none">ecran.draw2x2String(0, 0, &quot;BONNE&quot;);
+ecran.draw2x2String(0, 2, &quot;REPONSE&quot;);</code></pre></div>
+
+<p>On affiche ensuite le score en affichant la variable <code>score</code>, pour tenir le joueur informer à chaque tour : </p>
+
+<div><pre><code class="language-none">ecran.drawString(0, 5, &quot;Score=&quot;);
+ecran.setCursor(200, 300);
+ecran.print(score);</code></pre></div>
+
+<p>En même temps on joue la mélodie de bonne réponse : </p>
+
+<div><pre><code class="language-none">jouerMelodie_universel( nombre_notes_victoire, melodie_victoire, duree_note_victoire );</code></pre></div>
+
+<p>Puis on attend 4 secondes, on augmente <code>index</code>et le jeu continue, en appelant <code>gamelogic()</code>. </p>
+
+<p></br> </p>
+
+<h3 id="toc_21">3/ Le déroulement du jeu</h3>
+
+<blockquote>
+<p>Le jeu se compose en plusieurs étapes, en effet on commence pour l&#39;explication pour on écoute les mélodies les unes après les autres. Pour cela on a donc structuré le jeu avec un <code>index</code>que l&#39;on déclare au début en -1. Puis à chaque fois qu&#39;un bouton est pressé, l&#39;index augmente et on passe à l&#39;étape d&#39;après. </p>
+</blockquote>
+
+<p>Le <code>gamelogic</code>se décompose donc en 12 étapes. Chaque étape est définie ainsi avec une condition : <code>if (index == 0) { ... }</code>. </br></br></p>
+
+<ul>
+<li><strong>Il y a les étapes d&#39;explication où on lit seulement ce qu&#39;il y a sur l&#39;écran. (ligne 318)</strong></li>
+</ul>
+
+<p><strong>À la ligne 324</strong>, reset de l&#39;écran pour afficher un nouveau message :</p>
+
+<div><pre><code class="language-none">ecran.clearDisplay();</code></pre></div>
+
+<p><strong>À la ligne 327</strong>, importation de la font :</p>
+
+<div><pre><code class="language-none">ecran.setFont(u8x8_font_chroma48medium8_r);
+</code></pre></div>
+
+<p><strong>À la ligne 329</strong>, composition du message avec sa taille et ses coordonnées :</p>
+
+<div><pre><code class="language-none">ecran.drawString(0, 2, &quot;BIENVENUE SUR&quot;);
+ecran.drawString(0, 4, &quot;MELODIE.INO&quot;);</code></pre></div>
+
+<p></br></p>
+
+<ul>
+<li><strong>Puis les étapes d&#39;écoute de mélodie, où l&#39;on doit à chaque fois joueur les deux mélodies puis changer les fonctions appelées par chacun des boutons, en effet les bonnes réponses ne pouvaient pas tout le temps être sur le bouton A. (ligne 400)</strong> </li>
+</ul>
+
+<p>On commence comme de la même manière en faisant un reset de l&#39;écran puis en important la font. </br></p>
+
+<p>Puis <strong>à la ligne 411</strong>, on compose le message qui indique le nom de la mélodie : </p>
+
+<div><pre><code class="language-none">ecran.drawString(0, 0, &quot;2/LETTRE A&quot;);
+ecran.drawString(0, 1, &quot;ELISE&quot;);</code></pre></div>
+
+<p><strong>À la ligne 415</strong>, on attend 1 seconde, puis la mélodie A est jouée en même temps que l&#39;affichage du message &quot;Mélodie A&quot; : </p>
+
+<div><pre><code class="language-none">delay(1000);
+ecran.drawString(0, 4, &quot;Melodie A&quot;);
+// On appelle le fonction jouerMelodie_universel en lui indiquant quels paramètres appliquer pour chaque mélodie jouerMelodie_universel(nombre_notes_melo2fausse, melodie_2fausse, duree_note_melo2fausse );</code></pre></div>
+
+<p><strong>À la ligne 421</strong> pareil pour la mélodie B : </p>
+
+<div><pre><code class="language-none">delay(1000);
+ecran.drawString(0, 6, &quot;Melodie B&quot;);
+jouerMelodie_universel(nombre_notes_melo2vraie, melodie_2vraie, duree_note_melo2vraie );</code></pre></div>
+
+<p>Enfin <strong>à la ligne 426</strong>, on attribue les bonnes et mauvaises réponses aux boutons : </p>
+
+<div><pre><code class="language-none">buttonA.onPressed(onPressed_mauvais);
+buttonB.onPressed(onPressed_bon);</code></pre></div>
+
+<p></br> </p>
+
+<h3 id="toc_22">4/ Affichage des messages de fin (ligne 480)</h3>
+
+<p>En fonction du score un message différent s&#39;affichera à la fin de la partie. </p>
+
+<p>Pour cela <strong>à la ligne 485</strong> on a introduit une autre boucle <code>if</code> dans l&#39;index qui correspond à la fin de la partie. On affiche le score ainsi qu&#39;un message personnalisé en fonction de ce dernier : </p>
+
+<div><pre><code class="language-none">if ( score == 0) {    // Affichage du score    ecran.drawString(0, 0, &quot;Score=&quot;);
+// Affichage d&#39;une variable sur l&#39;écran : le score     ecran.setCursor(200, 0);
+ecran.print(score);
+
+// Composition du message personnalisé avec sa taille et ses coordonnées    ecran.draw2x2String(0, 2, &quot;AIE ...&quot;);
+ecran.draw2x2String(0, 4, &quot;LA&quot;);
+ecran.draw2x2String(0, 6, &quot;BULLE&quot;);
+}</code></pre></div>
+
+<p>On fait ensuite pareil pour les autres scores : </p>
+
+<p><code>if ( score == 5) { ... }</code> <code>if ( score == 10) { ... }</code> ... </p>
+
+<p>Nous avons donc composé un message personnalisé pour chaque score : </p>
+
+<ul>
+<li>0 = Aïe ... la bulle</li>
+<li>5 = Pas ouf dis donc</li>
+<li>10 = Peu mieux faire </li>
+<li>15 = Va au solfège</li>
+<li>20 = T&#39;es moitié chaud</li>
+<li>25 = Génie des mélodies</li>
+</ul>
+
+<p>Puis <strong>à la ligne 582</strong>, quand on appuie une fois de plus sur le bouton suivant on recommence la partie, l&#39;index et le score reviennent à 0 : </p>
+
+<div><pre><code class="language-none">else if (index == 12) {     index = 0;
+score = 0;
+...
+}</code></pre></div>
+
+<p></br></p>
+
+<h2 id="toc_23">BONUS / L&#39;EASTER EGG</h2>
+
+<p>En faisant tester le jeu par des camarades nous nous sommes rendu compte qu&#39;il était possible de &quot;hacker&quot; le jeu, du moins débloquer une situation initialement pas prévue. En effet si, pendant le didacticiel, le joueur appuie sur le bouton de bonne réponse son score pourra à la fin être plus élevé que 25. Aucun des messages de fin ne correspond à cela, il ne passait donc rien dans ce cas là.
+</br>
+Nous avons alors pensé à ajouter quelque chose qui est typique de la culture &quot;geek&quot; / jeux vidéo / développement : un Easter Egg. C&#39;est une fonction cachée accessible grâce à une combinaison de touches ou de clics.
+</br></br></p>
+
+<h3 id="toc_24">1/ Le score plus élevé que 25 (ligne 532)</h3>
+
+<p>Il suffit donc d&#39;afficher quelque chose de spécial quand cette condition (score plus élevé que 25) était remplie :  </p>
+
+<div><pre><code class="language-none">if (score &gt; 25) {   ecran.setFont(u8x8_font_chroma48medium8_r);
+ecran.drawString(0, 0, &quot;EASTER&quot;);
+ecran.drawString(0, 1, &quot;EGG      oooo   &quot;);
+ecran.drawString(0, 2, &quot;        o     o &quot;);
+ecran.drawString(0, 3, &quot;       o       o&quot;);
+ecran.drawString(0, 4, &quot;       o       o&quot;);
+ecran.drawString(0, 5, &quot;       o       o&quot;);
+ecran.drawString(0, 6, &quot;        o     o &quot;);
+ecran.drawString(0, 7, &quot;         oooo   &quot;);
+}</code></pre></div>
+
+<p>Mais ce bout de code créant des problèmes de stabilité pour des raisons inexpliquées (le programme cessait de fonctionner totalement après la 3e mélodie), nous l&#39;avons changé avec <code>if ((score == 30) &amp;&amp; (score == 35) &amp;&amp; (score == 40) &amp;&amp; (score == 45))</code> La condition est moins optimisée, mais cela semblait marcher plus.
+</br></br>
+Mais nous nous sommes rendu compte que même avec ce nouveau code, le programme buggait une fois sur trois. Nous en avons parlé avec Béranger pour essayer de trouver une autre solution. Il nous a parlé d&#39;utiliser d&#39;autres boutons ou d&#39;utiliser la fonction <code>INPUT</code> du piezo.</p>
+
+<p></br></p>
+
+<h3 id="toc_25">2/ Mettre une pichenette sur le micro (ligne 604)</h3>
+
+<p>Nous avons donc essayé d&#39;exploiter cela. À présent pour déclencher l&#39;Easter Egg le joueur doit mettre une pichenette sur le micro.
+Pour rendre cela possible, nous avons déclaré le piezo en tant qu&#39;input dans le <code>setup</code> :  <code>pinMode(BROCHE_HP, INPUT);</code>.
+Puis nous avons ajouté la lecture de l&#39;input du piezo dans le <code>loop</code> (le tout en affichant la même chose sur l&#39;écran) : </p>
+
+<div><pre><code class="language-none">buttonState = digitalRead(BROCHE_HP);
+if (buttonState == HIGH) {  ...
+}</code></pre></div>
+
+<p>Nous avons réalisé que cela marchait, mais créait d&#39;autres bugs, notamment sur le comptage du score dans la variable du même nom, le score pouvait être égale à 1 alors que normalement il augmente de 5 à chaque bonne réponse, plus des bugs d&#39;affichage sur l&#39;écran.
+</br> </br>
+Nous avons donc préféré ne pas inclure l&#39;Easter Egg dans le programme pour la présentation finale, car craignant des bugs, nous voulons que l&#39;expérience des joueurs ne soit pas gâchée. </br>
+Mais nous avons tout de même voulu vous présenter cette partie de notre projet, car nous pensons que cela a pu tout de même vous intéresser.
+</br> </br></p>
+
+<p></br></p>
+
+<hr>
+
+<h3 id="toc_26">Merci de votre lecture</h3>
+
+<p></br>
+Antoine Cesbron </br>
+Mathis Freudenberger </br>
+Victor Ducrot </br>
+I3B</p>
+
+
+
+
+</body>
+
+</html>
