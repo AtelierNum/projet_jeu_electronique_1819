@@ -32,7 +32,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 2 joueurs, l’un en face de l’autre. Le but est de se renvoyer un projectile grâce au souffle, le projectile étant figuré par une LED sur un bandeau. À chaque échange le projectile prend de la vitesse. Si le projectile touche la dernière LED (« la base ») de l'un des deux joueurs celui-ci a perdu la manche. Le joueur qui gagne la manche emporte autant de points qu’il y a eu d’échanges ; s'il y a eu 20 échanges à cette manche le joueur emporte 20 points. Le premier joueur à X points emporte la partie. Pour renvoyer le projectile des joueurs doivent souffler dans un réceptacle. Il y a une marge de 9 LEDs pour renvoyer le projectile. Au-delà de cette zone, soufflé n’aura aucun effet, si le projectile touche la dernière LED le joueur à perdu la manche. 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Blow)
+La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/BLOW)
 
 # ARKAD'BASKET par Bastien Adam et Théo Monnin
 
