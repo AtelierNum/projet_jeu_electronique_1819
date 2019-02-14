@@ -26,7 +26,7 @@ Dès que la musique s’arrête, les cowboys dégainent leur arme et tirent le p
 La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Duel)
 
 
-# BLOW par Martin Lamire et François Arnaud* 
+# BLOW par Martin Lamire et François Arnaud
 
 ![Alt Image Text](BLOW/images/gif.gif "Démonstration du jeux")
 
