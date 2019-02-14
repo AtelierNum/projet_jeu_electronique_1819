@@ -139,7 +139,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 ## Dance Fingers par Alia Elkayar - Sophie Le Gallo - Virginie Souffoy
 
-![](JustDanceFinger/IMG_0668.gif) 
+![](JustDanceFinger/IMG_0668.GIF) 
 
 Jeux de danse pour doigts, à chaque fois qu'une ou plusieurs led(s) s'allume(nt) le joueur doit cliquer au centre de la led afin de rester ne vie le plus longtemps possible.
 
