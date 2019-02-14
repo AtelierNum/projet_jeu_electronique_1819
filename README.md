@@ -107,7 +107,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 Le but du jeu est de répondre à une formule mathématique et répondre le plus vite possible. Avant de jouer, les deux joueurs doivent placer une main sur une plaque. L'écran LCD affiche de niveau: le premier ce sont des additions, le deuxième des multiplications. Pour jouer, les joueurs doivent répondre à la question en cliquant sur la bonne réponse. Si le joueur a juste, il gagne 1 point émit par la lumière verte et par l'afficheur si non il se fait piquer par la "massu" indiqué par la lumière rouge. Il ne gagne aucun point. Cependant si aucun des joueurs ne répondent à la question au bout de 20 secondes, ils se font piquer tous les deux. Les adversaires ont 5 manches pour se défier.
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/MysterMath)
+La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/MysterMaths)
 
 
 # CIRCLE SPEED par Camille Campo & Raphaëlle Gorenbouh
