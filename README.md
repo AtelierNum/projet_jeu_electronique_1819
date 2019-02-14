@@ -164,7 +164,7 @@ Un boitier avec trois lumières, chacunes reliées à un bouton. Les lumières s
 
 La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Bipper)
 
-# ColorBuzz par Andrews Kimbembe, Salomé Gloanec, Justine Viot*
+# ColorBuzz par Andrews Kimbembe, Salomé Gloanec, Justine Viot
 
 ![Texte alternatif](ColorBuzz/colorbuzz.gif "Initialisation1")
 
