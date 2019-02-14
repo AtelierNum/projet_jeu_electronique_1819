@@ -1,6 +1,6 @@
 # projet_jeu_electronique_1819
-Code and documentation for the electronic game project by interaction students @l'école_de_design_Nantes.
-[Github repo](https://github.com/AtelierNum/projet_jeu_electronique_1819)
+[Code and documentation](https://github.com/AtelierNum/projet_jeu_electronique_1819) for the electronic game project by interaction students @l'école_de_design_Nantes.
+
 
 # Punchers par Théotim Auger et Guillaume Le Méné
 
