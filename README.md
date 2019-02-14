@@ -95,7 +95,7 @@ BattleStar Gallacticat est un jeu de flipper inspiré d'un fameux pinball game F
 Un joueur lance une bille oeil de chat pour démarrer la partie. L'objectif est de mettre l'oeil de chat dans le but adverse, en utilisant les pattes en bois et de le faire plus souvent que l'autre joueur. Le bouton pour manipuler le Servo moteur camouflé en mode souris est à votre disposition ! Utilisez-le à votre avantage pour détourner la trajectoire de la balle. A vous de jouer !
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/BattleStarGalacticat)
+La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/BattlestarGalacticat)
 
 
 # MysterMaths par **Quentin Hamon** et **Auriane Pouzin**.
