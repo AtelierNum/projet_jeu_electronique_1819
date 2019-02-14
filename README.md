@@ -17,7 +17,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 # Duel par Lengliang Li et Morgane Thomas
 
-![](Duel/media/gif.gif)
+![](Duel/Media/gif.gif)
 
 **Duel** est un jeu opposant deux joueurs, ou plutôt deux cowboys. Ils se regardent de loin en plissant les yeux. Une musique du far west se joue.
 Nyanyanyan Nayn Nyan Nyan …
