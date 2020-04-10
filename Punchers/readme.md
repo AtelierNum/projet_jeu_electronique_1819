@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # PUNCHERS
 
