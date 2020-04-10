@@ -1,5 +1,8 @@
 # projet_jeu_electronique_1819
+
 [Code and documentation](https://github.com/AtelierNum/projet_jeu_electronique_1819) for the electronic game project by interaction students @l'école_de_design_Nantes.
+
+[Code et documentation](https://github.com/AtelierNum/projet_jeu_electronique_1819) pour le projet jeu éléctronique réalisé par les étudiants en design d'interaction @l'école_de_design_Nantes. Ce projet est réalisé à l'aide d'arduino.
 
 
 # Punchers par Théotim Auger et Guillaume Le Méné
@@ -14,26 +17,26 @@ Les robots ont deux interactions électroniques possibles (successive ou simulta
 
 Les robots sont enfermés dans une arène de laquelle, ils ne peuvent s’enfuir et sont montés sur des plateformes qui permettent un mouvement en 2 dimensions sur le plateau de jeu.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Punchers)
+La documentation est disponible [ici](Punchers/readme.md)
 
 # Duel par Lengliang Li et Morgane Thomas
 
-![](Duel/Media/gif.gif)
+![Duel](Duel/Media/gif.gif)
 
 **Duel** est un jeu opposant deux joueurs, ou plutôt deux cowboys. Ils se regardent de loin en plissant les yeux. Une musique du far west se joue.
 Nyanyanyan Nayn Nyan Nyan …
 Dès que la musique s’arrête, les cowboys dégainent leur arme et tirent le plus vite possible. Le plus rapide gagne la manche, au bout de trois manches gagnée, c’est la victoire.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Duel)
+La documentation est disponible [ici](Duel/readme.md)
 
 
 # BLOW par Martin Lamire et François Arnaud
 
-![Alt Image Text](BLOW/images/gif.gif "Démonstration du jeux")
+![Démonstration du jeux](BLOW/images/gif.gif)
 
 2 joueurs, l’un en face de l’autre. Le but est de se renvoyer un projectile grâce au souffle, le projectile étant figuré par une LED sur un bandeau. À chaque échange le projectile prend de la vitesse. Si le projectile touche la dernière LED (« la base ») de l'un des deux joueurs celui-ci a perdu la manche. Le joueur qui gagne la manche emporte autant de points qu’il y a eu d’échanges ; s'il y a eu 20 échanges à cette manche le joueur emporte 20 points. Le premier joueur à X points emporte la partie. Pour renvoyer le projectile des joueurs doivent souffler dans un réceptacle. Il y a une marge de 9 LEDs pour renvoyer le projectile. Au-delà de cette zone, soufflé n’aura aucun effet, si le projectile touche la dernière LED le joueur à perdu la manche. 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/BLOW)
+La documentation est disponible [ici](BLOW/readme.md)
 
 # ARKAD'BASKET par Bastien Adam et Théo Monnin
 
@@ -41,16 +44,16 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 Arkad'Basket est un jeu inspiré des bornes de basket-ball aussi appelées hoops que l'on peut trouver dans les salles d'arcade et qui sont notamment très populaire aux USA. Nous avons choisi un gameplay impliquant une action physique et non virtuelle de la part du joueur afin d'offrir un gameplay compréhensible et de pouvoir se concentrer sur l'expérience de jeu en elle-même.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/ArkadBasket)
+La documentation est disponible [ici](ArkadBasket/readme.md)
 
 
 # Eclipse parChristophe Le Conte et Simon Renault
 
-![](Eclipse/images/GIF.gif)
+![Démo](Eclipse/images/GIF.gif)
 
 The game eclipse is a game develloped during the arduino class at L'école de design de Nantes Atlantique.  It features a verry simple but extensible gameplay.  You will find below instruction to reproduce this experiments as well as the research process wich lead to the creation of this game.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Eclipse)
+La documentation est disponible [ici](Eclipse/readme.md)
 
 
 # Rabbit Hunt par Armand Lemaitre et Aurélie Caré 
@@ -60,7 +63,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 Vous allez chasser, et vous apercevez des lapins dans votre foin! Tuez les  avec votre pistolet avant qu'ils s'en aillent !
 Vous avez trois vies, vous perdez une vie quand un lapin s'échappe...
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/RabbitHunt)
+La documentation est disponible [ici](RabbitHunt/readme.md)
 
 
 # ColorFight par Samuel Lefevbre, Baptiste Deroche et Anna Rabeony 
@@ -70,7 +73,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 Color Fight est un jeu électronique qui se joue à deux. Chacun des joueurs dispose d'un bouton et d'un afficheur pour visualiser son score. Le but du jeu est d'appuyer le plus de fois possible sur son bouton pour faire augmenter son score. Les joueurs gagne ainsi 1pt par clic tant que la matrice de leds affiche bleu. Cependant, lorsque celle-ci passe au rouge, les joueurs perdent 10pts s'ils appuyent sur leur bouton pendant ce moment-là. Le gagnant est le premier à atteindre 50pts.
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/ColorFight)
+La documentation est disponible [ici](ColorFight/readme.md)
 
 
 # ASTRO par Maxime Thureau et Noé Martineau
@@ -84,7 +87,7 @@ Votre planète est sur le point d'exploser. Vous devez vous enfuir à bord de vo
 Ici le joueur doit déplacer son vaisseau horizontalement grâce à deux boutons (droite et gauche) et doit éviter des murs d’astéroïdes en passant par le ou les trous disponibles. Le but est donc de bien réfléchir à son déplacement qui sera de plus en plus dynamique pour passer dans l’entrée des murs. Il faudra faire preuve d’agilité et de bon raisonnement. Le vaisseau a 2 barrières de bouclier s'il est touché une troisième fois par un astéroïde, il explose, ce qui arrivera inéluctablement.
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Astro)
+La documentation est disponible [ici](Astro/readme.md)
 
 
 # BattleStar Galacticat par Paul Poirier et Seohee Park
@@ -96,7 +99,7 @@ BattleStar Gallacticat est un jeu de flipper inspiré d'un fameux pinball game F
 Un joueur lance une bille oeil de chat pour démarrer la partie. L'objectif est de mettre l'oeil de chat dans le but adverse, en utilisant les pattes en bois et de le faire plus souvent que l'autre joueur. Le bouton pour manipuler le Servo moteur camouflé en mode souris est à votre disposition ! Utilisez-le à votre avantage pour détourner la trajectoire de la balle. A vous de jouer !
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/BattlestarGalacticat)
+La documentation est disponible [ici](BattlestarGalacticat/readme.md)
 
 
 # MysterMaths par **Quentin Hamon** et **Auriane Pouzin**.
@@ -108,7 +111,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 Le but du jeu est de répondre à une formule mathématique et répondre le plus vite possible. Avant de jouer, les deux joueurs doivent placer une main sur une plaque. L'écran LCD affiche de niveau: le premier ce sont des additions, le deuxième des multiplications. Pour jouer, les joueurs doivent répondre à la question en cliquant sur la bonne réponse. Si le joueur a juste, il gagne 1 point émit par la lumière verte et par l'afficheur si non il se fait piquer par la "massu" indiqué par la lumière rouge. Il ne gagne aucun point. Cependant si aucun des joueurs ne répondent à la question au bout de 20 secondes, ils se font piquer tous les deux. Les adversaires ont 5 manches pour se défier.
 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/MysterMaths)
+La documentation est disponible [ici](MysterMaths/readme.md)
 
 
 # CIRCLE SPEED par Camille Campo & Raphaëlle Gorenbouh
@@ -125,7 +128,7 @@ Chaque joueur a un anneau de led. Un anneau supplémentaire est disposé de sort
 * Si la personne a juste, elle marque un point (+1). 
 * L'objectif du jeu étant d'obtenir plus de points que ses adversaires.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Circle_Speed)
+La documentation est disponible [ici](Circle_Speed/readme.md)
 
 # Patouche par Alix Gora et Enzo Wattebled  
 
@@ -135,7 +138,7 @@ Patouche.ino est inspiré du jeu d'adresse électrique que l'on peut retrouver s
 
 Maintenant, le fil définisant le parcours est relié à un servo moteur continu faisant tourner le parcours aléatoirement. Au lieu de recevoir une décharge lorqu'il touche le fil, son manche se met à vibrer. Nous avons également rajouté un timer créant un découpe et affichant le temps de parcours final. 
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Patouche)
+La documentation est disponible [ici](Patouche/readme.md)
 
 
 ## Dance Fingers par Alia Elkayar - Sophie Le Gallo - Virginie Souffoy
@@ -146,7 +149,7 @@ Jeux de danse pour doigts, à chaque fois qu'une ou plusieurs led(s) s'allume(nt
 
 Au départ ce dernier possède 5 vies. S'il ne touche pas au bon moment il perd une vie et s'il touche au bon moment il en gagne une.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/JustDanceFinger)
+La documentation est disponible [ici](JustDanceFinger/readme.md)
 
 
 # MELODIE.INO par Antoine Cesbron, Mathis Freudenberger et Victor Ducrot
@@ -155,7 +158,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 Le joueur a devant lui une boîte avec un écran, 3 boutons et une mini enceinte. À chaque tour un titre de musique apparaît sur l'écran, il écoute 2 mélodies : la mélodie A et la mélodie B, puis il doit choisir laquelle correspond à la chanson affichée en appuyant sur le bouton correspondant.  
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Melodie.ino)
+La documentation est disponible [ici](Melodie.ino/readme.md)
 
 # Bipper par Lúna Azibeiro et Giulia Savelli 
 
@@ -163,7 +166,7 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 
 Un boitier avec trois lumières, chacunes reliées à un bouton. Les lumières s'allument aléatoirement chacune leur tour. Dès qu'une lumière s'allume, il faut appuyer le plus rapidement possible sur le bouton correspondant pour éteindre la led en question. Pour gagner la partie, le but est de parvenir à éteindre plus de 25 fois les lumières en moins de 5 secondes. Si on gagne la partie, toutes les leds s'éteignent. Mais si on se trompe de bouton, on perd la partie et toutes les leds s'allument, le jeu s'arrête. Le résultat s'affiche sur l'ordinateur. Pour recommencer une partie, il suffit d'appuyer sur le bouton reset.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Bipper)
+La documentation est disponible [ici](Bipper/readme.md)
 
 # ColorBuzz par Andrews Kimbembe, Salomé Gloanec, Justine Viot
 
@@ -176,13 +179,13 @@ Nous avons ainsi placé le moteur de sorte qu’il puisse faire tourner la parti
 
 Répéter la séquence des Led lumineuse à l’aide des boutons aux couleurs correspondantes, en **équipe de 3**. Chaque personne a le contrôle d’un bouton. Une Led s’allume, appuyez sur le bouton Cette même Led s’allume suivi d’une autre, appuyez sur les boutons correspondants dans le même ordre Vous perdez lorsque vous vous trompez Pour plus de difficulté, le plateau de jeu du Colorbuzz **tourne en permanence**. Les joueurs, ne bougent pas de places mais devront pour autant continuer à ne contrôler qu’un seul bouton. C’est là que l’**esprit d’équipe** entre en jeu et devient même indispensable pour gagner !
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/ColorBuzz)
+La documentation est disponible [ici](ColorBuzz/readme.md)
 
 # Le jeu de l'espace par Lucie Marécaille et Manon Leverrier
 
 *Le jeu de l'espace* est un jeu musical, avec un seul joueur qui doit répéter le rythme joué par la machine. Si le rythme est le bon, la difficulté augmente.
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/LeJeuDeLespace)
+La documentation est disponible [ici](LeJeuDeLespace/readme.md)
 
 
 # Projet référence par [Clément Gault](http://www.koikoi.design/)
@@ -192,4 +195,4 @@ La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_e
 Kameha ! est un jeu électronique inspiré d'un célèbre manga dramatique d'origine japonaise où des guerriers peroxidés en sarouel défendent la Terre d'envahisseurs béliqueux.
 Deux joueurs s'affrontent en lançant chacun un rayon d'énergie, un "kameha", symbolisé par un ruban de leds. La puissance du rayon d'énergie est basé sur le principe d'appuyer de manière répétée et frénétique sur un bouton :
 
-La documentation est disponible [ici](https://github.com/AtelierNum/projet_jeu_electronique_1819/tree/master/Projet_exemple)
+La documentation est disponible [ici](Projet_exemple/readme.md)

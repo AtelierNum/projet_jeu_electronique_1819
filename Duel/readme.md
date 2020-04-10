@@ -1,3 +1,5 @@
+[**home**](../README.MD)
+
 # Duel
 
 Petit jeu électronique utilisant arduino - 2 joueurs
@@ -424,7 +426,7 @@ Voilà ! Le jeu est terminé, maintenant c’est à vous de mettre la main à la
 ![](media/WechatIMG15.jpeg)
 ![](media/WechatIMG21.jpeg)
 
-
+[**home**](../README.MD)
 
 
 

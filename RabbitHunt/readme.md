@@ -1,3 +1,5 @@
+[**home**](../README.MD)
+
 # Rabbit Hunt
 *créé et imaginé par Armand Lemaitre & Aurélie Caré I3A*
 
@@ -62,4 +64,7 @@ Pour ce jeu on a besoin:
   **7)** Mettre la paille pour décorer !
 
    ![Vue 4](Photos/paille.jpg)
+
+   [**home**](../README.MD)
+
 

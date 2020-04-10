@@ -1,13 +1,14 @@
+[**home**](../README.MD)
+
 # ARKAD'BASKET
 
-### Jeu électronique basé sur Arduino
-
-###### Réalisé par Bastien Adam et Théo Monnin
+#### Réalisé par Bastien Adam et Théo Monnin
 ---
 ## Le principe
 Arkad'Basket est un jeu inspiré des bornes de basket-ball aussi appelées hoops que l'on peut trouver dans les salles d'arcade et qui sont notamment très populaire aux USA. Nous avons choisi un gameplay impliquant une action physique et non virtuelle de la part du joueur afin d'offrir un gameplay compréhensible et de pouvoir se concentrer sur l'expérience de jeu en elle-même.
 
 <br>
+
 ![GIF](jeu_basket.gif)
 </br>
 
@@ -16,6 +17,7 @@ Arkad'Basket est un jeu inspiré des bornes de basket-ball aussi appelées hoops
 --
 
 </br>
+
 ## LES COMPOSANTS :
 
 #### - LE BOUTON -
@@ -44,6 +46,7 @@ Le piezo a pour rôle d'apporter une dimension auditive au jeu. En effet lors du
 --
 
 </br>
+
 ## ARKAD'BASKET
 
 ### LE MATÉRIEL
@@ -75,6 +78,7 @@ Le piezo a pour rôle d'apporter une dimension auditive au jeu. En effet lors du
 ### LA MAQUETTE
 
 </br>
+
 ![cotes](Taille-maquette.png)
 </br>
 
@@ -82,3 +86,5 @@ Le piezo a pour rôle d'apporter une dimension auditive au jeu. En effet lors du
 
 ### LE CODE
 Voir le code arduino commenté ci-joint dans le dossier "**arkad_basket.ino**"
+
+[**home**](../README.MD)

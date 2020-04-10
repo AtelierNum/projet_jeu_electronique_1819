@@ -1,3 +1,5 @@
+[**home**](../README.MD)
+
 # ColorFight.ino
 Jeu électronique réalisé sur Arduino par Samuel Lefevbre, Baptiste Deroche et Anna Rabeony 
 
@@ -61,9 +63,9 @@ On associe les broches de l'afficheur aux broches de la carte arduino :
 ```
 
 Puis on associe la librairie aux broches :
-````
+```
 SevenSegmentTM1637 afficheur1(BROCHE_CLK1, BROCHE_DIO1);
 ```
 
 
-
+[**home**](../README.MD)

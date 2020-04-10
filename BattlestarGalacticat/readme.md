@@ -1,3 +1,6 @@
+[**home**](../README.MD)
+
+
 # BattleStar Galacticat
 *par Paul Poirier et Seohee Park *
 
@@ -64,7 +67,7 @@ Et variable qui va contenir le résultat du calcul de la tension
     float tension2 = 0;
     
  
-   ![Alt Text](img/gif scoring.gif)
+   ![Alt Text](img/gif-scoring.gif)
    
 On commence ensuite la partie Servo moteur qui va nous servir à empêcher le passage de l'oeil lorsqu'on appuie sur le bouton. Pour ça, on commence par l'inclure la bibliothèque Servo.h
 
@@ -193,10 +196,12 @@ Dans un soucis d'organisation, on gère l'organisation de l'électronique dans l
 
 Ci dessous le schéma du montage électronique de la carte Arduino, la breadboard, les deux servos moteurs continus, les deux piezos et les deux 7 digits.
 
-![image](img/Montage Arduino.png)
+![image](img/Montage-Arduino.png)
 
 
 # Scénario
 Ci dessous le déroulé d'un point de BAttlestar Galacticat. A noter que la partie peut durer une longue période si les deux joueurs décident de s'affronter sur une partie à 10 buts. 
 
-![image](img/Diagramme partie.png)
+![image](img/Diagramme-partie.png)
+
+[**home**](../README.MD)

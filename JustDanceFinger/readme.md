@@ -1,4 +1,8 @@
+[**home**](../README.MD)
+
+
 ## Projet Arduino : Dance Fingers
+
 ###### Jeu réalisé par Alia Elkayar - Sophie Le Gallo - Virginie Souffoy
 
 ![](IMG_0668.gif) 
@@ -43,6 +47,8 @@
 
 #### Schéma de montage
 ![](schemaMontage.png) 
+
+[**home**](../README.MD)
 
 >
 >

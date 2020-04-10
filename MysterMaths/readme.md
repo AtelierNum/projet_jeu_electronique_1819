@@ -1,3 +1,6 @@
+[**home**](../README.MD)
+
+
 # MysterMaths
 ---
 **Ce petit jeu éléctronique est basé sur du arduino.**
@@ -515,6 +518,7 @@ si personne n'appuie:
     
 Exemple pour la fonction pique() où les deux joueurs ont perdu. Les servomotueurs piquent le j2 puis le J1. La fonction pique() est composée de la fonction piquej2() + piquej1().
 
+
     void piques(){
        myservo2.write(130); // piquej1()
         delay(1500);
@@ -533,3 +537,6 @@ Exemple pour la fonction pique() où les deux joueurs ont perdu. Les servomotueu
         myservo2.write(90); 
         delay(1500);
     }
+
+
+[**home**](../README.MD)
