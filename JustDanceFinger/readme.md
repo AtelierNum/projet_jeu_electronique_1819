@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 ## Projet Arduino : Dance Fingers
@@ -48,7 +48,7 @@
 #### Schéma de montage
 ![](schemaMontage.png) 
 
-[**home**](../README.MD)
+[**home**](../README.md)
 
 >
 >

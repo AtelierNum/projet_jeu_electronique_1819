@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 # MysterMaths
@@ -539,4 +539,4 @@ Exemple pour la fonction pique() où les deux joueurs ont perdu. Les servomotueu
     }
 
 
-[**home**](../README.MD)
+[**home**](../README.md)

@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # ColorFight.ino
 Jeu électronique réalisé sur Arduino par Samuel Lefevbre, Baptiste Deroche et Anna Rabeony 
@@ -68,4 +68,4 @@ SevenSegmentTM1637 afficheur1(BROCHE_CLK1, BROCHE_DIO1);
 ```
 
 
-[**home**](../README.MD)
+[**home**](../README.md)

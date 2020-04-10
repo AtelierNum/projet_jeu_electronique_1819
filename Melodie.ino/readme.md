@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 # MELODIE.INO
@@ -384,4 +384,4 @@ Mathis Freudenberger </br>
 Victor Ducrot </br>
 I3B
 
-[**home**](../README.MD)
+[**home**](../README.md)

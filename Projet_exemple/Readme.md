@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 # Kameha ! (かめはめ波)
@@ -197,4 +197,4 @@ strip.show();
 **A la ligne 168**, dans `if (winKameha == true)`, animation lumineuse qui indique quel joueur a gagné.
 
 
-[**home**](../README.MD)
+[**home**](../README.md)

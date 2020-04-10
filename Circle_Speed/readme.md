@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # CIRCLE SPEED 
 ### par Camille Campo & Raphaëlle Gorenbouh
@@ -483,4 +483,4 @@ void generate_new_config() {
 <img src="IMG/shema.png" alt="montage boite" style="width:700px;"/>
 
 
-[**home**](../README.MD)
+[**home**](../README.md)

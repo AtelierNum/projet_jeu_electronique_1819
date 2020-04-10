@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 # Projet Arduino : Jeu électronique 
@@ -90,4 +90,4 @@ Si on n’appuie pas sur le bon bouton toutes les leds s’allument, et le jeu e
  
 <img src = "azibeiro_savelli_circuit-electrique.png">
 
-[**home**](../README.MD)
+[**home**](../README.md)

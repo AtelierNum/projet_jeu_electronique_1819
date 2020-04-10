@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 ## Le jeu de l'espace
@@ -74,4 +74,4 @@ if (score == nbNotes - 1) {
 
 Sinon, le buzzer émet le bruit d'échec et rejoue le niveau.
 
-[**home**](../README.MD)
+[**home**](../README.md)

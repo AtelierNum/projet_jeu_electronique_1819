@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # ASTRO
 
@@ -201,4 +201,4 @@ Afin de bien finir notre jeu, nous avons decidé de créer une boite en bois qui
 
 ![astro](astro.gif)
 
-[**home**](../README.MD)
+[**home**](../README.md)

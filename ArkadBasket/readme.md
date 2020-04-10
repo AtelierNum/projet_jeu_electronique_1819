@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # ARKAD'BASKET
 
@@ -87,4 +87,4 @@ Le piezo a pour rôle d'apporter une dimension auditive au jeu. En effet lors du
 ### LE CODE
 Voir le code arduino commenté ci-joint dans le dossier "**arkad_basket.ino**"
 
-[**home**](../README.MD)
+[**home**](../README.md)

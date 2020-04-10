@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # JEU ARDUINO CONNECTIVITE 
 ### Alix Gora / Enzo Wattebled I3A 
@@ -30,4 +30,4 @@ Beaucoup de fils et de pinces crocodiles
 
 ![noticemontage](montage.png)
 
-[**home**](../README.MD)
+[**home**](../README.md)

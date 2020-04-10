@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # Rabbit Hunt
 *créé et imaginé par Armand Lemaitre & Aurélie Caré I3A*
@@ -65,6 +65,6 @@ Pour ce jeu on a besoin:
 
    ![Vue 4](Photos/paille.jpg)
 
-   [**home**](../README.MD)
+   [**home**](../README.md)
 
 

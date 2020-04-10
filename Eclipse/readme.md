@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 # Eclipse : An arduino based game
 
@@ -94,4 +94,4 @@ _Christophe Le Conte_
 _Simon Renault_
 
 
-[**home**](../README.MD)
+[**home**](../README.md)

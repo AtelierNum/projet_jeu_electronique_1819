@@ -1,4 +1,4 @@
-[**home**](../README.MD)
+[**home**](../README.md)
 
 
 # BattleStar Galacticat
@@ -204,4 +204,4 @@ Ci dessous le déroulé d'un point de BAttlestar Galacticat. A noter que la part
 
 ![image](img/Diagramme-partie.png)
 
-[**home**](../README.MD)
+[**home**](../README.md)

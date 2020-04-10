@@ -182,4 +182,4 @@ Le déplacement est une interaction tangible, les deux autres sont électronique
 
 ![Punchers-coup](images/coups.gif)
 
-[**home**](../README.MD)
+[**home**](../README.md)
