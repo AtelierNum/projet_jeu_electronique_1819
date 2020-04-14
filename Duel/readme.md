@@ -15,7 +15,7 @@ Interaction design, L’École de design Nantes Atlantique - 22 janvier 2019
 Nyanyanyan Nayn Nyan Nyan …
 Dès que la musique s’arrête, les cowboys dégainent leur arme et tirent le plus vite possible. Le plus rapide gagne la manche, au bout de trois manches gagnée, c’est la victoire.
 
-![](media/gif.gif)
+![](Media/gif.gif)
 
 ## Le circuit
 
@@ -30,7 +30,7 @@ Dès que la musique s’arrête, les cowboys dégainent leur arme et tirent le p
 * Un buzzer (ou piezzo)
 
 ### Connecter les Servo Moteurs
-![](media/servo.png)
+![](Media/servo.png)
 
 On connecte d’abord les deux moteurs qui nous serviront à faire l’animation de mort des cowboys, puis on teste notre branchement avec un code simple.
 
@@ -73,7 +73,7 @@ void loop() {
 ```
 
 ### Connecter les Boutons
-![](media/boutons.png)
+![](Media/boutons.png)
 On connecte ensuite les boutons. Un pour lancer la partie et les deux autres pour les cowboys. On teste ensuite leur bon fonctionnement.
 
 On définit les broches correspondant à nos boutons.
@@ -116,7 +116,7 @@ void loop() {
 }
 ```
 ### Connecter les Leds
-![](media/Leds.png)
+![](Media/Leds.png)
 Les leds vont nous servir à compter les points.
 On commence par appeler la librairie Adafruit que l’on va utiliser pour contrôler le ruban Leds. On appelle ensuite notre ruban en l’associant à la pin correspondante et en définissant son nombre de Leds.
 
@@ -188,7 +188,7 @@ void loop() {
 ```
 
 ### Connecter le buzzer
-![](media/piezo.png)
+![](Media/piezo.png)
 Le buzzer va nous servir à jouer de la musique.
 
 Pour ce faire il faut une bibliothèque de notes que nous enregistrons sous un autre onglet de notre projet appelé “notes.h”. Celle ci se construit de cette façon
@@ -299,13 +299,13 @@ void loop() {
 ###Montage global
 Vous avez maintenant le montage global de ce jeu de duel avec en prime une bonne partie du code, et normalement tout est testé et tout fonctionne.
 
-![](media/Montage.png)
+![](Media/Montage.png)
 
 ###Logique du jeu
 
 On va séparer le programme en 3 parties qui vont nous permettre de séparer les différentes étapes du jeux, comme sur le schéma suivant.
 
-![](media/Flowchart.png)
+![](Media/Flowchart.png)
 
 Pour ce faire on va créer des booléens qui évolueront au fil de la partie selon les action réalisées. On les initialise tout d’abord au début de notre code.
 
@@ -422,9 +422,9 @@ if (victoireDuel) {
 ```
 Voilà ! Le jeu est terminé, maintenant c’est à vous de mettre la main à la pâte pour décorer un peu tout ça. Nous on avait fait une boite avec des trous pour les câbles des moteurs, pour le bouton reset et pour les leds. On avait camouflé nos moteur avec de faux rocher et fixé nos boutons rouge et bleu à des pistolets pour enfants.
 
-![](media/WechatIMG12.jpeg)
-![](media/WechatIMG15.jpeg)
-![](media/WechatIMG21.jpeg)
+![](Media/WechatIMG12.jpeg)
+![](Media/WechatIMG15.jpeg)
+![](Media/WechatIMG21.jpeg)
 
 [**home**](../README.md)
 
