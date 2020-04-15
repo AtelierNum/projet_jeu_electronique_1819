@@ -2,8 +2,11 @@
 
 [Code and documentation](https://github.com/AtelierNum/projet_jeu_electronique_1819) for the electronic game project by interaction students @l'école_de_design_Nantes.
 
+Files can be found on [github](https://github.com/AtelierNum/projet_jeu_electronique_1819)
+
 [Code et documentation](https://github.com/AtelierNum/projet_jeu_electronique_1819) pour le projet jeu éléctronique réalisé par les étudiants en design d'interaction @l'école_de_design_Nantes. Ce projet est réalisé à l'aide d'arduino.
 
+Les fichiers peuvent-être téléchargés sur [github](https://github.com/AtelierNum/projet_jeu_electronique_1819)
 
 # Punchers par Théotim Auger et Guillaume Le Méné
 
